@@ -1,0 +1,65 @@
+{
+  "description": "",
+  "language": "en",
+  "disableInteractionLogs": false,
+  "disableStackdriverLogs": true,
+  "googleAssistant": {
+    "googleAssistantCompatible": true,
+    "project": "breastfeedassistant",
+    "welcomeIntentSignInRequired": true,
+    "startIntents": [
+      {
+        "intentId": "a0442ac4-9a3e-4be2-a2d1-0a87424196a4",
+        "signInRequired": true
+      },
+      {
+        "intentId": "b9786afe-90dd-483c-b018-a2ac230ec9c1",
+        "signInRequired": true
+      },
+      {
+        "intentId": "96df7bea-6d7f-4910-9df7-058105065762",
+        "signInRequired": true
+      },
+      {
+        "intentId": "bea115d0-0b4c-4acb-8467-23ca074ca026",
+        "signInRequired": true
+      }
+    ],
+    "systemIntents": [],
+    "endIntentIds": [
+      "b9786afe-90dd-483c-b018-a2ac230ec9c1",
+      "a0442ac4-9a3e-4be2-a2d1-0a87424196a4",
+      "bea115d0-0b4c-4acb-8467-23ca074ca026",
+      "96df7bea-6d7f-4910-9df7-058105065762"
+    ],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "protocolVersion": "V2",
+    "autoPreviewEnabled": true,
+    "isDeviceAgent": false
+  },
+  "defaultTimezone": "America/Buenos_Aires",
+  "webhook": {
+    "url": "https://us-central1-breastfeedassistant.cloudfunctions.net/hello",
+    "headers": {
+      "": ""
+    },
+    "available": true,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": false,
+    "cloudFunctionsInitialized": false
+  },
+  "isPrivate": true,
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.3,
+  "supportedLanguages": [],
+  "onePlatformApiVersion": "v2beta1",
+  "analyzeQueryTextSentiment": false,
+  "enabledKnowledgeBaseNames": [],
+  "knowledgeServiceConfidenceAdjustment": -0.4,
+  "dialogBuilderMode": false
+}

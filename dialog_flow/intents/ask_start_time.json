@@ -1,0 +1,28 @@
+{
+  "id": "bea115d0-0b4c-4acb-8467-23ca074ca026",
+  "name": "ask_start_time",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1537125059,
+  "fallbackIntent": false,
+  "events": []
+}

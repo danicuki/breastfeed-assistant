@@ -1,0 +1,28 @@
+{
+  "id": "96df7bea-6d7f-4910-9df7-058105065762",
+  "name": "ask_finish_time",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1537128282,
+  "fallbackIntent": false,
+  "events": []
+}

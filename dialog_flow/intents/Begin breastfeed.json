@@ -1,0 +1,28 @@
+{
+  "id": "b9786afe-90dd-483c-b018-a2ac230ec9c1",
+  "name": "Begin breastfeed",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1537057198,
+  "fallbackIntent": false,
+  "events": []
+}
